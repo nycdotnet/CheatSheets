@@ -12,7 +12,7 @@ General .NET
 
 
 
-** string to memory stream back to string **
+**string to memory stream back to string**
 
     //Thanks to http://stackoverflow.com/users/320/brian
     //http://stackoverflow.com/questions/78181/how-do-you-get-a-string-from-a-memorystream
@@ -29,7 +29,7 @@ General .NET
     
 
 
-** simple memory stream to string using encoding **
+**simple memory stream to string using encoding**
 
     MemoryStream ms;
     //
