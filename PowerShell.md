@@ -38,3 +38,12 @@
     #Thanks http://stackoverflow.com/questions/1825585/how-to-determine-what-version-of-powershell-is-installed
 
 
+**Pass DateTime to function**
+
+    function Get-Ticks([DateTime] $myDateTimeParam) {
+      $myDateTimeParam.Ticks
+    }
+    
+    Get-Ticks ([DateTime]"2014-01-01");
+     
+    
