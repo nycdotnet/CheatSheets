@@ -14,3 +14,9 @@ To ignore a directory by name regardless of where it appears (for example, as an
     node_modules/
 
 
+**Set repository to version as of a specifc commit**
+
+    git checkout SHA
+
+    for example:
+    git checkout 7e871d71f4df2c6c629bbb83c08cddd46641df65
