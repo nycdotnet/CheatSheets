@@ -12,17 +12,12 @@
 * pp01_disp: data explorer
 
 
+**Documenting the variant used by a historical job**
+  * Select a job and click "Step" button you can see the program name and the parameters field has the variant name in it.
+  * On that screen Goto... Variant will show a table of the variant properties.
+  * You can select the fields and use CTRL+C to copy and then paste into Excel.  If you get "Not all data has been copied to the clipboard" - just scroll down to the bottom and that will buffer all the data and then copy it.
 
-
+**Tips**
+* Simple Job Selection you can use * as a wildcard.
 * /n ends the current session and starts a new transaction.  Such as /npa20 will kill whatever you're working on and load pa20.
-
-Simple Job Selection you can use * as a wildcard.
-
-hold down control to select multiple columns before clicking sort.
-
-
-Select a job and click "Step" button you can see the program name and the parameters field has the variant name in it.
-
-On that screen Goto... Variant will show a table of the variant properties.
-
-"Not all data has been copied to the clipboard" - just scroll down to the bottom and that will buffer all the data.
+* hold down control to select multiple columns before clicking sort.
