@@ -51,4 +51,9 @@
     
     Get-Ticks ([DateTime]"2014-01-01");
      
-    
+**Filter a collection**
+
+````powershell
+# returns only the items where the OS property equals "Windows"
+Get-AzureVMImage | ? {$_.OS -eq "Windows"}
+````
