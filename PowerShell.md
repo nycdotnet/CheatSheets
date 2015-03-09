@@ -80,4 +80,9 @@ Get-AzureVMImage | ? {$_.OS -eq "Windows"}
 dir | select lastaccesstime, name | Format-Table -AutoSize | Out-String -Width 4096
 ````
 
+**Determine type of a variable**
 
+````powershell
+($variable).GetType().FullName
+# thanks: http://techibee.com/powershell/tip-how-to-find-variable-type-in-powershell/702
+````
